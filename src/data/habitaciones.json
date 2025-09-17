@@ -1,0 +1,20 @@
+[
+    {
+        "Id":0, 
+        "Nombre":"Hab1", 
+        "Info":"Info de la Hab1",
+        "Foto":"Hab1.png"
+    },
+    {
+        "Id":1, 
+        "Nombre":"Hab2", 
+        "Info":"Info de la Hab2",
+        "Foto":"Hab2.png"
+    },
+    {
+        "Id":2, 
+        "Nombre":"Hab3", 
+        "Info":"Info de la Hab3",
+        "Foto":"Hab3.png"
+    }
+]

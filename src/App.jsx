@@ -4,7 +4,9 @@ import { Info } from './componentes/Info'
 function App() {
   return (
     <>
-      <Info />
+      <div>
+        <Info/>
+      </div>
     </>
   )
 }
