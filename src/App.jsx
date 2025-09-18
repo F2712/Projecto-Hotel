@@ -11,15 +11,14 @@ function App() {
     <>
 
       <div className="fondo">
-        <Info/>
-        <p>chau</p>
 
-      <div className='hola'>
-        <Boton_cambia dice='>' suma={1} max={20}/>
-        <div className="fondo">
-          <Info/>
-          <p>chau prueba</p>
-        </div>
+        <div className='hola'>
+          <Boton_cambia dice='>' suma={1} max={20}/>
+          <div className="fondo">
+            <Info/>
+            <p>hola</p>
+          </div>
+
         </div>
       </div>
     </>
