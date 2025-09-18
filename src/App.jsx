@@ -16,7 +16,7 @@ function App() {
           <Boton_cambia dice='>' suma={1} max={20}/>
           <div className="fondo">
             <Info/>
-            <p>Holanda</p>
+            <p>hola</p>
           </div>
 
         </div>
