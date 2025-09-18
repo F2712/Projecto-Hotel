@@ -17,7 +17,7 @@ function App() {
           <div className="fondo">
             <Info/>
             <p>
-              boenas prueba
+              holissssss
             </p>
           </div>
 
