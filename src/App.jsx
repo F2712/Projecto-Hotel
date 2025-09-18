@@ -11,16 +11,15 @@ function App() {
     <>
 
       <div className="fondo">
-
+        <h1 className='titulo'>Hotel Puras Maravillas</h1>
         <div className='hola'>
           <Boton_cambia dice='>' suma={1} max={20}/>
           <div className="fondo">
             <Info/>
-            <p>
-              holissssss
-            </p>
           </div>
-
+        <footer className='footer'>
+          <p>Siguenos en nuestras redes</p>
+        </footer>
         </div>
       </div>
     </>
