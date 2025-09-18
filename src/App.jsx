@@ -7,7 +7,7 @@ function App() {
     <>
       <div className="fondo">
         <Info/>
-        <p>hola</p>
+        <p>chau</p>
       </div>
     </>
   )
