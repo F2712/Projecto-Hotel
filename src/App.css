@@ -3,17 +3,19 @@ body{
     background-image: url(./assets/img/HOTEL_DE_PURAS_MARAVILLAS_1.png);
     background-repeat: no-repeat;
     background-size: auto 101% ;
+    padding: 0px;
+    margin: 0px;  
 }
 .titulo{
     text-align: center;
     font-family: sans-serif;
+    
 }
 
-.footer{
+.footer {
     text-align: center;
     font-size: x-large;
-    
-    background-color: blue;
-    width: 100%;
-
+    background-color: rgb(253, 255, 148);
+    color: black;
+    padding: 3%;
 }
