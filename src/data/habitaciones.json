@@ -16,5 +16,17 @@
         "Nombre":"Hab3", 
         "Info":"Info de la Hab3",
         "Foto":"Hab3.png"
+    },
+    {
+        "Id":3, 
+        "Nombre":"Hab4", 
+        "Info":"Info de la Hab4",
+        "Foto":"ig.png"
+    },
+        {
+        "Id":4, 
+        "Nombre":"Hab5", 
+        "Info":"Info de la Hab5",
+        "Foto":"Hab2.png"
     }
 ]

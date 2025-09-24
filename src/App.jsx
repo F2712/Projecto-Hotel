@@ -10,7 +10,7 @@ function App() {
     <>
 
       <div className="fondo">
-        <h1 className='titulo'>Hotel Puras Maravillas</h1>
+        <h1 className='titulo'>Hotel De Puras Maravillas</h1>
         <div className='hola'>
 
           <div className="fondo">

@@ -11,17 +11,25 @@ export function Info(){
         return new URL(`../assets/img/${name}`, import.meta.url).href;
     }
 
-    function agragar(suma){
-        if (0 < actual < habs.length-1){
-            setActual(actual+suma)
+    function adelante(){
+        if (actual < habs.length-1){
+            setActual(actual+1)
+            console.log("Hola")
+        }
+    }
+
+    function atras(){
+        if (actual > 0){
+            setActual(actual-1)
+            console.log("Chau")
         }
     }
 
     // Código HTML
     return (
         <>
-            <button id="botonAtr" onClick={() => {agragar(-1)}}>Atras</button>
-            <button id="botonAdel" onClick={() => {agragar(1)}}>Adelante</button>
+            <button id="botonAtr" onClick={() => {atras()}}>Atras</button>
+            <button id="botonAdel" onClick={() => {adelante()}}>Adelante</button>
 
             <div className="info">
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />

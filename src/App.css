@@ -8,13 +8,13 @@ body{
 .titulo{
     text-align: center;
     font-family: sans-serif;
-    
+    color: rgb(255, 191, 119);
 }
 
 .footer {
     text-align: center;
     font-size: x-large;
-    background-color: rgb(253, 255, 148);
+    background-color: rgb(255, 191, 119);
     color: black;
     padding: 3%;
 }
