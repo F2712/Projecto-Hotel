@@ -1,6 +1,7 @@
 // Importaciones
 import { useState } from 'react'
 import habs from "../data/habitaciones.json";
+import "./info.css"
 
 export function Info(){
     // Numero de la habitación que se esté viendo en el momento
@@ -34,10 +35,10 @@ export function Info(){
             <div className="info">
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />
                 <div className="demas">
-                    <h2>{habs[actual].Nombre}</h2>
+                    <h2 className="aah">{habs[actual].Nombre}</h2>
                     <p>{habs[actual].Info}</p>
-                    <button>comprar</button>
-                    <button>alquilar</button>
+                    <button className="botones">COMPRAR</button>
+                    <button className="botones">ALQUILAR</button>                  
                 </div>
             </div>
         </>

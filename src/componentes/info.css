@@ -1,0 +1,40 @@
+.info{
+    display:flex;
+    flex-direction: row;
+    gap: 2%;
+}
+
+.demas{
+    flex-direction: column;
+    background-color:aliceblue;
+    color: rgb(0, 0, 0);
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.botones{
+    background-color: rgb(255, 110, 0);
+    color:aliceblue;
+    border: none;
+    border-radius: 1cm;
+    
+    font-size:x-large;
+    font-family: "Oswald", sans-serif;
+
+    width: 55%;
+    height: 50px;
+
+    gap: 20px;
+    flex-wrap: nowrap;
+}
+
+.botones:hover{
+    background-color: rgb(255, 130, 0);
+}
+
+#foto{
+    width: 450px;
+    display: flex;
+}
