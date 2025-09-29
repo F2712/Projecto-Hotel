@@ -7,20 +7,14 @@ import './App.css'
 
 function App() {
   return (
-    <>
-
-      <div className="fondo">
+    <>      
         <h1 className='titulo'>Hotel De Puras Maravillas</h1>
-        <div className='hola'>
-
-          <div className="fondo">
-            <Info/>
-          </div>
+        <div className='infos'>
+          <Info/>
+        </div>
         <footer className='footer'>
           <p>Siguenos en nuestras redes</p>
         </footer>
-        </div>
-      </div>
     </>
   )
 }

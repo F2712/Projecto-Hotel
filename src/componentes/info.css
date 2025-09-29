@@ -1,7 +1,6 @@
 .info{
     display:flex;
     flex-direction: row;
-    gap: 2%;
 }
 
 .demas{
@@ -23,7 +22,7 @@
     font-size:x-large;
     font-family: "Oswald", sans-serif;
 
-    width: 55%;
+    width: 65%;
     height: 50px;
 
     gap: 20px;

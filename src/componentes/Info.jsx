@@ -30,7 +30,6 @@ export function Info(){
     return (
         <>
             <button id="botonAtr" onClick={() => {atras()}}>Atras</button>
-            <button id="botonAdel" onClick={() => {adelante()}}>Adelante</button>
 
             <div className="info">
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />
@@ -41,6 +40,8 @@ export function Info(){
                     <button className="botones">ALQUILAR</button>                  
                 </div>
             </div>
+
+            <button id="botonAdel" onClick={() => {adelante()}}>Adelante</button>
         </>
     )
 }
