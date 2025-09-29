@@ -1,21 +1,21 @@
 [
     {
         "Id":0, 
-        "Nombre":"Hab1", 
-        "Info":"Info de la Hab1",
-        "Foto":"Hab1.png"
+        "Nombre":"Habitación con vista al (espacio) exterior", 
+        "Info":"¿Te gustan las vistas inmensas? ¡Entonces esta habitación es para vos! Tiene una vista EXCLUSIVA de 'TON 618', el agujero negro más grande registrado hasta la fecha. Eso si, se recomienda encarecidaente no intentar abrir las ventanas.",
+        "Foto":"Depa al exterior.png"
     },
     {
         "Id":1, 
-        "Nombre":"Hab2", 
-        "Info":"Info de la Hab2",
-        "Foto":"Hab2.png"
+        "Nombre":"Habitación Skibidi Toilet", 
+        "Info":"Si sos fan de Skibidi Toilet esta habitacion definitivamente te va a encantar. Incluye un aro basquet por si no tenés nada que hacer, pero la pelota se alquila por ARS$1000 la hora.",
+        "Foto":"skibidi.png"
     },
     {
         "Id":2, 
-        "Nombre":"Hab3", 
-        "Info":"Info de la Hab3",
-        "Foto":"Hab1.png"
+        "Nombre":"Habitación con Elmo incluido", 
+        "Info":"El Elmo que ves en la foto sirve para hacer compañia a aquellas personas que se sientan muy solas. Si le pagás un extra juega al truco con vos.",
+        "Foto":"emo.png"
     },
     {
         "Id":3, 

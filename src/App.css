@@ -1,3 +1,8 @@
+.todo{
+    display: flex;
+    flex-direction: column;
+}
+
 body{
     background-image: url(./assets/img/HOTEL_DE_PURAS_MARAVILLAS_1.png);
     background-repeat: no-repeat;
@@ -16,6 +21,7 @@ body{
     flex-direction: row;
     justify-content: center;
     gap: 10%;
+    margin-block: 5%;
 }
 
 .footer {

@@ -8,6 +8,7 @@ import './App.css'
 function App() {
   return (
     <>      
+      <div className='todo'>
         <h1 className='titulo'>Hotel De Puras Maravillas</h1>
         <div className='infos'>
           <Info/>
@@ -15,6 +16,7 @@ function App() {
         <footer className='footer'>
           <p>Siguenos en nuestras redes</p>
         </footer>
+      </div>
     </>
   )
 }
