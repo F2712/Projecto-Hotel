@@ -10,7 +10,7 @@ function App() {
     <>      
       <div className='todo'>
         <h1 className='titulo'>Hotel De Puras Maravillas</h1>
-        <div className='infos'>
+        <div className='importante'>
           <Info/>
         </div>
         <footer className='footer'>

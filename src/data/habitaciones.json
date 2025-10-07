@@ -19,14 +19,14 @@
     },
     {
         "Id":3, 
-        "Nombre":"Hab4", 
-        "Info":"Info de la Hab4",
-        "Foto":"ig.png"
+        "Nombre":"Habitación sin un chunk", 
+        "Info":"Debido a problemas en la generación del mundo esta habitación tiene un hueco algo notirio en el living. Fuera de eso la habitacion es un 10/10.",
+        "Foto":"chunk.png"
     },
         {
         "Id":4, 
-        "Nombre":"Hab5", 
-        "Info":"Info de la Hab5",
-        "Foto":"Hab2.png"
+        "Nombre":"Habitación Randy South Park", 
+        "Info":"Si estás exageradamente hiperfijado por el personaje 'Randy' de la famosa comedia animada 'South Park' esta si o si es tu habitación.",
+        "Foto":"randy.png"
     }
 ]

@@ -16,12 +16,13 @@ body{
     color: rgb(255, 191, 119);
 }
 
-.infos{
+.importante{
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 10%;
     margin-block: 5%;
+    flex-shrink: 1;
 }
 
 .footer {

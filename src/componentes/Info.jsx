@@ -15,21 +15,23 @@ export function Info(){
     function adelante(){
         if (actual < habs.length-1){
             setActual(actual+1)
-            console.log("Hola")
-        }
+        } else {
+            setActual(0)
+        } 
     }
 
     function atras(){
         if (actual > 0){
             setActual(actual-1)
-            console.log("Chau")
+        } else {
+            setActual(habs.length-1)
         }
     }
 
     // Código HTML
     return (
         <>
-            <button id="botonAtr" onClick={() => {atras()}}>Atras</button>
+            <button id="botonAtr" onClick={() => {atras()}}>{actual}</button>
 
             <div className="info">
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />
@@ -41,7 +43,7 @@ export function Info(){
                 </div>
             </div>
 
-            <button id="botonAdel" onClick={() => {adelante()}}>Adelante</button>
+            <button id="botonAdel" onClick={() => {adelante()}}>{actual}</button>
         </>
     )
 }
