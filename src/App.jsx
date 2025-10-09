@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Info } from './componentes/Info'
-import { Boton_cambia } from './componentes/boton_cambia'
+import logo from './assets/img/logo.png'
 
 import './App.css'
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <>      
       <div className='todo'>
-        <h1 className='titulo'>Hotel De Puras Maravillas</h1>
+        <img src={logo}/>
         <div className='importante'>
           <Info/>
         </div>

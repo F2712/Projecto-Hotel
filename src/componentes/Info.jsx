@@ -3,6 +3,9 @@ import { useState } from 'react'
 import habs from "../data/habitaciones.json";
 import "./info.css"
 
+import botAtras from '../assets/img/atras.png'
+import botAdelante from '../assets/img/adelante.png'
+
 export function Info(){
     // Numero de la habitación que se esté viendo en el momento
     const [actual, setActual] = useState(0)
@@ -31,7 +34,9 @@ export function Info(){
     // Código HTML
     return (
         <>
-            <button id="botonAtr" onClick={() => {atras()}}>{actual}</button>
+            <button className="cambios" onClick={() => {atras()}}>
+                <img src={botAtras}/>
+            </button>
 
             <div className="info">
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />
@@ -43,7 +48,9 @@ export function Info(){
                 </div>
             </div>
 
-            <button id="botonAdel" onClick={() => {adelante()}}>{actual}</button>
+            <button className="cambios" onClick={() => {adelante()}}>
+                <img src={botAdelante}/>
+            </button>
         </>
     )
 }

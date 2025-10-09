@@ -36,6 +36,12 @@
     background-color: rgb(255, 130, 0);
 }
 
+.cambios{
+    
+    height: 100%;
+}
+
+
 #foto{
     width: 450px;
 }
