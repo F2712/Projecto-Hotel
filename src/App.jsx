@@ -4,6 +4,8 @@ import { Info } from './componentes/Info'
 import { Boton_cambia } from './componentes/boton_cambia'
 
 import './App.css'
+import Facebook from './assets/img/Facebook.png'
+import Instagram from './assets/img/ig.png'
 
 
 function App() {
@@ -19,6 +21,10 @@ function App() {
           </div>
         <footer className='footer'>
           <p>Siguenos en nuestras redes</p>
+          <div>
+          <img className='facebook' src={Facebook} alt="" />
+          <img className='instagram' src={Instagram} alt="" />
+          </div>
         </footer>
         </div>
       </div>
