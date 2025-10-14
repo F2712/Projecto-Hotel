@@ -1,0 +1,19 @@
+.alquilar{
+    background-color:aliceblue;
+
+    border-color: aliceblue;
+    border-radius: 10px;
+
+    text-align: center;
+
+    margin: 1%;
+
+    font-size:x-large;
+    font-family: "Oswald", sans-serif;
+
+    box-shadow: black 3px 4px 5px;
+
+    width: 200px;
+    height: 300px;
+}
+

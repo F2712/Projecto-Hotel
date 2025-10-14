@@ -3,30 +3,35 @@
         "Id":0, 
         "Nombre":"Habitación con vista al (espacio) exterior", 
         "Info":"¿Te gustan las vistas inmensas? ¡Entonces esta habitación es para vos! Tiene una vista EXCLUSIVA de 'TON 618', el agujero negro más grande registrado hasta la fecha. Eso si, se recomienda encarecidaente no intentar abrir las ventanas.",
+        "Precio": 2000000,
         "Foto":"Depa al exterior.png"
     },
     {
         "Id":1, 
         "Nombre":"Habitación Skibidi Toilet", 
         "Info":"Si sos fan de Skibidi Toilet esta habitacion definitivamente te va a encantar. Incluye un aro basquet por si no tenés nada que hacer, pero la pelota se alquila por ARS$1000 la hora.",
+        "Precio": 4500000,
         "Foto":"skibidi.png"
     },
     {
         "Id":2, 
         "Nombre":"Habitación con Elmo incluido", 
         "Info":"El Elmo que ves en la foto sirve para hacer compañia a aquellas personas que se sientan muy solas. Si le pagás un extra juega al truco con vos.",
+        "Precio": 3000000,
         "Foto":"emo.png"
     },
     {
         "Id":3, 
         "Nombre":"Habitación sin un chunk", 
         "Info":"Debido a problemas en la generación del mundo esta habitación tiene un hueco algo notirio en el living. Fuera de eso la habitacion es un 10/10.",
+        "Precio": 2500000,
         "Foto":"chunk.png"
     },
         {
         "Id":4, 
         "Nombre":"Habitación Randy South Park", 
         "Info":"Si estás exageradamente hiperfijado por el personaje 'Randy' de la famosa comedia animada 'South Park' esta si o si es tu habitación.",
+        "Precio": 3500000,
         "Foto":"randy.png"
     }
 ]

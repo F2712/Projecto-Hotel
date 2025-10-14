@@ -42,7 +42,8 @@ export function Info(){
                 <img id='foto' src={AssetUrl(habs[actual].Foto)} alt="foto" />
                 <div className="demas">
                     <h2 className="aah">{habs[actual].Nombre}</h2>
-                    <p id='texto'>{habs[actual].Info}</p>
+                    <p className='texto'>{habs[actual].Info}</p>
+                    <p className='texto'>${habs[actual].Precio}</p>
                     <button className="botones">COMPRAR</button>
                     <button className="botones">ALQUILAR</button>                  
                 </div>
