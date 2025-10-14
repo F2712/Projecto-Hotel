@@ -22,8 +22,8 @@ function App() {
         <footer className='footer'>
           <p>Siguenos en nuestras redes</p>
           <div>
-          <img className='facebook' src={Facebook} alt="" />
-          <img className='instagram' src={Instagram} alt="" />
+          <a target='blank' href="https://www.facebook.com/?locale=es_LA"><img className='facebook' src={Facebook} alt="" /></a>
+          <a target='blank' href="https://www.instagram.com/"><img className='instagram' src={Instagram} alt="" /></a>
           </div>
         </footer>
         </div>
