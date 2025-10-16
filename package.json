@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://f2712.github.io/",
+  "homepage": "https://f2712.github.io/Projecto-Hotel/",
   "scripts": {
     "dev": "vite",
     "host": "vite --host",
