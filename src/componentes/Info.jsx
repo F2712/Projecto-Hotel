@@ -1,14 +1,18 @@
 // Importaciones
 import { useState } from 'react'
+import { useNavigate, Link } from "react-router-dom"
+
 import habs from "../data/habitaciones.json";
 import "./info.css"
 
 import botAtras from '../assets/img/atras.png'
 import botAdelante from '../assets/img/adelante.png'
 
-export function Info(){
+export function Info({ onAlquilar, onComprar }){
     // Numero de la habitación que se esté viendo en el momento
     const [actual, setActual] = useState(0)
+
+    const navegar = useNavigate()
 
     // Función para importar assets dinamicamente
     const AssetUrl = (name) => {
@@ -43,9 +47,9 @@ export function Info(){
                 <div className="demas">
                     <h2 className="aah">{habs[actual].Nombre}</h2>
                     <p className='texto'>{habs[actual].Info}</p>
-                    <p className='texto'>${habs[actual].Precio}</p>
-                    <button className="botones">COMPRAR</button>
-                    <button className="botones">ALQUILAR</button>                  
+                    <p id='precio'>${habs[actual].Precio}</p>
+                    <button className="botones" id='compra' onClick={onComprar}>COMPRAR</button>
+                    <button className="botones" id='alquiler' onClick={onAlquilar}>ALQUILAR</button>                  
                 </div>
             </div>
 

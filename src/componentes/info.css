@@ -12,6 +12,10 @@
     font-family: 'Orbitron', Courier, monospace;
 }
 
+#precio{
+    font-size: 20px;
+}
+
 .demas{
     flex-direction: column;
     background-color:aliceblue;
